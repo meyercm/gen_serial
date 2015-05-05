@@ -1,0 +1,5 @@
+{application, gen_serial, [
+    {description, "Generic serial driver for Erlang"},
+    {vsn, "0.2"},
+    {applications, [kernel, stdlib]}
+]}.
