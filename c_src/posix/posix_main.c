@@ -81,18 +81,18 @@ int serial_configure(struct serial_channel *_chan, struct serial_cfg *cfg)
 	case 57600: tio.c_cflag |= B57600; break;
 	case 115200: tio.c_cflag |= B115200; break;
 	case 230400: tio.c_cflag |= B230400; break;
-	case 460800: tio.c_cflag |= B460800; break;
-	case 500000: tio.c_cflag |= B500000; break;
-	case 576000: tio.c_cflag |= B576000; break;
-	case 921600: tio.c_cflag |= B921600; break;
-	case 1000000: tio.c_cflag |= B1000000; break;
-	case 1152000: tio.c_cflag |= B1152000; break;
-	case 1500000: tio.c_cflag |= B1500000; break;
-	case 2000000: tio.c_cflag |= B2000000; break;
-	case 2500000: tio.c_cflag |= B2500000; break;
-	case 3000000: tio.c_cflag |= B3000000; break;
-	case 3500000: tio.c_cflag |= B3500000; break;
-	case 4000000: tio.c_cflag |= B4000000; break;
+//	case 460800: tio.c_cflag |= B460800; break;
+//	case 500000: tio.c_cflag |= B500000; break;
+//	case 576000: tio.c_cflag |= B576000; break;
+//	case 921600: tio.c_cflag |= B921600; break;
+//	case 1000000: tio.c_cflag |= B1000000; break;
+//	case 1152000: tio.c_cflag |= B1152000; break;
+//	case 1500000: tio.c_cflag |= B1500000; break;
+//	case 2000000: tio.c_cflag |= B2000000; break;
+//	case 2500000: tio.c_cflag |= B2500000; break;
+//	case 3000000: tio.c_cflag |= B3000000; break;
+//	case 3500000: tio.c_cflag |= B3500000; break;
+//	case 4000000: tio.c_cflag |= B4000000; break;
 	default: chan->lastError = EINVAL; return -1;
 	}
 
